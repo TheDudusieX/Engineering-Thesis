@@ -1,0 +1,46 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons';
+
+// Font-Awesome
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/regular";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+@import "~@fortawesome/fontawesome-free/scss/brands";
+
+// Jquery
+@import '~jquery-ui/themes/base/all.css';
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    // font-size: 1.6rem;
+    // background-image: url('/images/tlo2.jpg');
+    // background-size: cover;
+    // background-position: center;
+}
+
+// html {
+//     font-size: 62.5%;
+// }
+
+/* nav */
+
+// .navbar-brand {
+// font-size: ;
+// }
+
+.nav-item {
+    font-size: 1rem;
+}

@@ -1,0 +1,9 @@
+footer {
+  position: absolute !important;
+  width: 100%;
+  bottom: 0;
+}
+
+.preview {
+  font-size: 1rem;
+}
