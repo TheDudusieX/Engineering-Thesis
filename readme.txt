@@ -12,10 +12,6 @@ Trzeba zbudować pliki dla strony za pomocą komendy: npm run build,
 następnie w utworzyc bazę danych o nazwie pracainzynierska i uzupełnic o strukture i dane za pomocą komendy: php artisan migrate:fresh --seed.
 
 Należy z pliku .env.example stworzyc plik .env i uzupełnic go, umieścić 2 klucze potrzebne do Google Api Captcha
-RECAPTCHAV3_SITEKEY=6LeDkHgjAAAAAE98xp1iQl90gZL-xV6m2fgEy3ui
-RECAPTCHAV3_SECRET=6LeDkHgjAAAAAK5SyGh94RJxBOHaT2cDDKEgSUgP
-a także zaktualizować wpis o nazwie bazy danych:
-DB_DATABASE=pracainzynierska
 Po zainstalowaniu potrzebnego oprogramowania należy uruchomić serwer PHP za pomoca komendy:
 php artisan serve
 
